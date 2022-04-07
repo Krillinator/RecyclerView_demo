@@ -32,7 +32,7 @@ internal class CustomAdapter(private var itemsList: ArrayList<String>) :
     // Method Definition
     fun setOnItemClickListener(listener: OnItemClickListener) {
         mListener = listener
-        println("Bananasss")
+        println("Banana")
     }
         internal inner class MyViewHolder(view: View, listener: OnItemClickListener) : RecyclerView.ViewHolder(view) {
             var itemTextView: TextView = view.findViewById(R.id.itemText)
